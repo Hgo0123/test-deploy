@@ -16,8 +16,7 @@ const App = () => {
           <h1 className='text-black text-[8px] font-main italic'>pariscoolnoldstuff</h1>
          
         </div>
-          <div>
-              
+          <div className="image_ctn">
               {images.map((image, index) => (
                 <img key={index} src={image.default} />
               ))}

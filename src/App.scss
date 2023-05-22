@@ -1,3 +1,10 @@
 h1 {
-    color: red;
+  color: red;
+}
+
+.image_ctn {
+  columns: 2;
+  img {
+    width: 300px;
   }
+}
